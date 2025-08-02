@@ -28,7 +28,7 @@ const auth = async (req, res, next) => {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
     // Get user from database
-    const user = await User.findById(decoded.id).select("-password");
+    const user = await User.findById(decoded.userId || decoded.id).select("-password");
 
     if (!user) {
       return res.status(401).json({
@@ -144,6 +144,7 @@ const verifyToken = (token) => {
 
 module.exports = {
   auth,
+  authenticateToken: auth, // Alias for auth function
   optionalAuth,
   adminAuth,
   generateToken,

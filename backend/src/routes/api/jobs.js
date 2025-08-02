@@ -1,13 +1,13 @@
 const express = require("express");
 const router = express.Router();
 const jobController = require("../../controllers/jobController");
-const { auth } = require("../../middleware/auth");
 const { validateJobId } = require("../../middleware/validation");
+
 const User = require("../../models/User");
 const Job = require("../../models/Job");
 const logger = require("../../utils/logger");
 
-// Public routes
+// All routes are now public (no authentication required)
 router.get("/", jobController.getJobs);
 router.get("/stats", jobController.getJobStats);
 router.get("/suggestions", jobController.getJobSuggestions);
@@ -16,22 +16,29 @@ router.get("/remote", jobController.getRemoteJobs);
 router.get("/:id", validateJobId, jobController.getJobById);
 router.get("/:id/similar", validateJobId, jobController.getSimilarJobs);
 
-// Protected routes (require authentication)
-router.post("/search", auth, jobController.searchJobs);
+// Search route (now public)
+router.post("/search", jobController.searchJobs);
 
-// User-specific job actions
-router.post("/:id/save", auth, async (req, res) => {
+// User-specific job actions (now public)
+router.post("/:id/save", async (req, res) => {
   try {
     const { id } = req.params;
     const { notes } = req.body;
-    const userId = req.user.id;
 
-    const user = await User.findById(userId);
+    // Get the first user or create one if none exists
+    let user = await User.findOne();
+
     if (!user) {
-      return res.status(404).json({
-        success: false,
-        error: "User not found",
+      // Create a demo user if none exists
+      user = new User({
+        email: "demo@example.com",
+        password: "demo123",
+        profile: {
+          firstName: "Demo",
+          lastName: "User",
+        },
       });
+      await user.save();
     }
 
     await user.saveJob(id, notes);
@@ -50,17 +57,24 @@ router.post("/:id/save", auth, async (req, res) => {
   }
 });
 
-router.delete("/:id/save", auth, async (req, res) => {
+router.delete("/:id/save", async (req, res) => {
   try {
     const { id } = req.params;
-    const userId = req.user.id;
 
-    const user = await User.findById(userId);
+    // Get the first user or create one if none exists
+    let user = await User.findOne();
+
     if (!user) {
-      return res.status(404).json({
-        success: false,
-        error: "User not found",
+      // Create a demo user if none exists
+      user = new User({
+        email: "demo@example.com",
+        password: "demo123",
+        profile: {
+          firstName: "Demo",
+          lastName: "User",
+        },
       });
+      await user.save();
     }
 
     await user.removeSavedJob(id);
@@ -79,18 +93,25 @@ router.delete("/:id/save", auth, async (req, res) => {
   }
 });
 
-router.post("/:id/apply", auth, async (req, res) => {
+router.post("/:id/apply", async (req, res) => {
   try {
     const { id } = req.params;
     const { notes } = req.body;
-    const userId = req.user.id;
 
-    const user = await User.findById(userId);
+    // Get the first user or create one if none exists
+    let user = await User.findOne();
+
     if (!user) {
-      return res.status(404).json({
-        success: false,
-        error: "User not found",
+      // Create a demo user if none exists
+      user = new User({
+        email: "demo@example.com",
+        password: "demo123",
+        profile: {
+          firstName: "Demo",
+          lastName: "User",
+        },
       });
+      await user.save();
     }
 
     await user.applyForJob(id, notes);
@@ -115,18 +136,25 @@ router.post("/:id/apply", auth, async (req, res) => {
   }
 });
 
-router.put("/:id/application-status", auth, async (req, res) => {
+router.put("/:id/application-status", async (req, res) => {
   try {
     const { id } = req.params;
     const { status, notes } = req.body;
-    const userId = req.user.id;
 
-    const user = await User.findById(userId);
+    // Get the first user or create one if none exists
+    let user = await User.findOne();
+
     if (!user) {
-      return res.status(404).json({
-        success: false,
-        error: "User not found",
+      // Create a demo user if none exists
+      user = new User({
+        email: "demo@example.com",
+        password: "demo123",
+        profile: {
+          firstName: "Demo",
+          lastName: "User",
+        },
       });
+      await user.save();
     }
 
     await user.updateApplicationStatus(id, status, notes);
@@ -146,12 +174,12 @@ router.put("/:id/application-status", auth, async (req, res) => {
 });
 
 // Get user's saved jobs
-router.get("/user/saved", auth, async (req, res) => {
+router.get("/user/saved", async (req, res) => {
   try {
-    const userId = req.user.id;
     const { page = 1, limit = 20 } = req.query;
 
-    const user = await User.findById(userId).populate({
+    // Get the first user or create one if none exists
+    let user = await User.findOne().populate({
       path: "savedJobs.job",
       populate: {
         path: "company",
@@ -160,10 +188,16 @@ router.get("/user/saved", auth, async (req, res) => {
     });
 
     if (!user) {
-      return res.status(404).json({
-        success: false,
-        error: "User not found",
+      // Create a demo user if none exists
+      user = new User({
+        email: "demo@example.com",
+        password: "demo123",
+        profile: {
+          firstName: "Demo",
+          lastName: "User",
+        },
       });
+      await user.save();
     }
 
     const skip = (parseInt(page) - 1) * parseInt(limit);
@@ -192,12 +226,12 @@ router.get("/user/saved", auth, async (req, res) => {
 });
 
 // Get user's applied jobs
-router.get("/user/applied", auth, async (req, res) => {
+router.get("/user/applied", async (req, res) => {
   try {
-    const userId = req.user.id;
     const { page = 1, limit = 20, status } = req.query;
 
-    const user = await User.findById(userId).populate({
+    // Get the first user or create one if none exists
+    let user = await User.findOne().populate({
       path: "appliedJobs.job",
       populate: {
         path: "company",
@@ -206,10 +240,16 @@ router.get("/user/applied", auth, async (req, res) => {
     });
 
     if (!user) {
-      return res.status(404).json({
-        success: false,
-        error: "User not found",
+      // Create a demo user if none exists
+      user = new User({
+        email: "demo@example.com",
+        password: "demo123",
+        profile: {
+          firstName: "Demo",
+          lastName: "User",
+        },
       });
+      await user.save();
     }
 
     let appliedJobs = user.appliedJobs;
@@ -245,17 +285,24 @@ router.get("/user/applied", auth, async (req, res) => {
 });
 
 // Check if job is saved/applied by current user
-router.get("/:id/status", auth, async (req, res) => {
+router.get("/:id/status", async (req, res) => {
   try {
     const { id } = req.params;
-    const userId = req.user.id;
 
-    const user = await User.findById(userId);
+    // Get the first user or create one if none exists
+    let user = await User.findOne();
+
     if (!user) {
-      return res.status(404).json({
-        success: false,
-        error: "User not found",
+      // Create a demo user if none exists
+      user = new User({
+        email: "demo@example.com",
+        password: "demo123",
+        profile: {
+          firstName: "Demo",
+          lastName: "User",
+        },
       });
+      await user.save();
     }
 
     const isSaved = user.isJobSaved(id);

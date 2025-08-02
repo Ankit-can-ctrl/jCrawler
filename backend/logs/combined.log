@@ -38,3 +38,356 @@
 {"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
 {"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
 {"level":"info","message":"SIGINT received, shutting down gracefully","service":"job-scraper-api","timestamp":"2025-08-02 13:31:47"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:00:29"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:00:29"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:00:29"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:00:29"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:00:29"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:00:29"}
+{"level":"info","message":"::1 - - [02/Aug/2025:09:32:46 +0000] \"POST /api/users/register HTTP/1.1\" 404 87 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 15:02:46"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:05:55"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:05:55"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:05:55"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:05:55"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:05:55"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:05:55"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:07:18"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:18"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:07:18"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:18"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:07:18"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:07:18"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:07:35"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:35"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:07:35"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:35"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:07:35"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:07:35"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:07:44"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:44"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:07:44"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:44"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:07:44"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:07:44"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:07:52"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:52"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:07:52"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:07:52"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:07:52"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:07:52"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:04"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:04"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:04"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:04"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:04"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:04"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:10"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:10"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:10"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:10"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:10"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:10"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:19"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:19"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:19"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:19"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:19"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:19"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:27"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:27"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:27"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:27"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:27"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:27"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:35"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:35"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:35"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:35"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:35"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:35"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:43"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:43"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:43"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:44"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:44"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:44"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:51"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:51"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:51"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:51"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:51"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:51"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:08:58"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:58"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:08:58"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:08:58"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:08:58"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:08:58"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:09:06"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:09:06"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:09:06"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:09:06"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:09:06"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:09:06"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:09:17"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:09:17"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:09:17"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:09:17"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:09:17"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:09:17"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:09:24"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:09:24"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:09:24"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:09:24"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:09:24"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:09:24"}
+{"level":"info","message":"::1 - - [02/Aug/2025:09:40:45 +0000] \"POST /api/users/register HTTP/1.1\" 400 505 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 15:10:45"}
+{"level":"info","message":"::1 - - [02/Aug/2025:09:40:59 +0000] \"POST /api/users/register HTTP/1.1\" 400 509 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 15:10:59"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:11:41"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:11:41"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:11:41"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:11:41"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:11:41"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:11:41"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:12:02"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:02"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:12:02"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:02"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:12:02"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:12:02"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:12:14"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:14"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:12:14"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:14"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:12:14"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:12:14"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:12:30"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:30"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:12:30"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:30"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:12:30"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:12:30"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:12:44"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:44"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:12:44"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:12:44"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:12:44"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:12:44"}
+{"level":"info","message":"::1 - - [02/Aug/2025:09:42:44 +0000] \"POST /api/users/register HTTP/1.1\" 400 200 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 15:12:44"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:14:11"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:11"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:14:11"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:11"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:14:11"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:14:11"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:14:25"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:25"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:14:25"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:25"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:14:25"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:14:25"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:14:40"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:40"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:14:40"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:40"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:14:40"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:14:40"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:14:58"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:58"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:14:58"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:14:58"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:14:58"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:14:58"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:15:20"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:15:20"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:15:20"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:15:20"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:15:20"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:15:20"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:15:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:15:37"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:15:37"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:15:37"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:15:37"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:15:37"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:16:00"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:16:00"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:16:00"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:16:00"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:16:00"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:16:00"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:16:32"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:16:32"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:16:32"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:16:32"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:16:32"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:16:32"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:16:47"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:16:47"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:16:47"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:16:47"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:16:47"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:16:47"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 15:17:02"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:17:02"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 15:17:02"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 15:17:02"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 15:17:02"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 15:17:02"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:00"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:00"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:00"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:00"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:00"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:00"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:02"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:02"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:02"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:02"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:02"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:02"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:09"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:09"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:09"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:09"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:09"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:09"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:11"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:11"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:11"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:11"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:11"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:11"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:17"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:17"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:17"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:17"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:17"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:17"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:27"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:27"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:27"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:27"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:27"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:27"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:33"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:33"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:33"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:33"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:33"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:33"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:35"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:35"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:35"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:35"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:35"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:35"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:40"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:40"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:40"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:40"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:40"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:40"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:31:47 +0000] \"GET /health HTTP/1.1\" 200 122 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.4768\"","service":"job-scraper-api","timestamp":"2025-08-02 17:01:47"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:01:57"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:57"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:01:57"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:01:57"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:01:57"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:01:57"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:14:23"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:15:02"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:17:07"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:18:24"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:20:04"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 17:20:08"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:20:08"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 17:20:08"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 17:20:08"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 17:20:08"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 17:20:08"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:10 +0000] \"GET /api/jobs?limit=5 HTTP/1.1\" 200 - \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:10"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:11 +0000] \"GET /api/jobs/stats HTTP/1.1\" 200 733 \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:11"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:11 +0000] \"GET /api/jobs/remote?limit=3 HTTP/1.1\" 200 - \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:11"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:12 +0000] \"GET /api/jobs/skills/javascript?limit=3 HTTP/1.1\" 200 - \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:12"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:12 +0000] \"POST /api/jobs/search HTTP/1.1\" 200 353 \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:12"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:14 +0000] \"GET /api/jobs/user/saved?limit=3 HTTP/1.1\" 200 - \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:14"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:14 +0000] \"GET /api/jobs/user/applied?limit=3 HTTP/1.1\" 200 - \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:14"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:14 +0000] \"GET /api/jobs/suggestions?q=react HTTP/1.1\" 200 215 \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:14"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:14 +0000] \"POST /api/jobs/688dfb6c97260d786592dac0/save HTTP/1.1\" 200 51 \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:14"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:14 +0000] \"GET /api/jobs/688dfb6c97260d786592dac0/status HTTP/1.1\" 200 58 \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:14"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:14 +0000] \"GET /api/jobs/688dfb6c97260d786592dac0 HTTP/1.1\" 200 - \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:14"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:50:14 +0000] \"GET /api/jobs/688dfb6c97260d786592dac0/similar?limit=3 HTTP/1.1\" 200 - \"-\" \"axios/1.11.0\"","service":"job-scraper-api","timestamp":"2025-08-02 17:20:14"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:18 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:18"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:18 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:18"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:19 +0000] \"GET /api/jobs/stats HTTP/1.1\" 200 733 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:19"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:19 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:19"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:50 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:50"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:50 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:50"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:50 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:50"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:50 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:50"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:52 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:52"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:52 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:52"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:52 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:52"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:51:52 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:21:52"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:52:46 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:22:46"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:52:46 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:22:46"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:52:46 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:22:46"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:52:46 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:22:46"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:21 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:21"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:23 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:23"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:25 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:25"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:25 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:25"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:25 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:25"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:25 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:25"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:26 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:26"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:26 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:26"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:26 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:26"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:26 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:26"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:27 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:27"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:27 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:27"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:27 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:27"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:27 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:27"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:28 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:28"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:28 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:28"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:28 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:28"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:28 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:28"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:32 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:32"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:32 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:32"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:37 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:37"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:43 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 179 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:43"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:46 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 202 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:46"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:48 +0000] \"POST /api/jobs/search?page=1&limit=10 HTTP/1.1\" 200 203 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:48"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:53 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:53"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:53 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:53"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:53 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:53"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:53 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:53"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:54 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:54"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:54 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:54"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:55 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:55"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:55 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:55"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:56 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:56"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:56 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:56"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:56 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:56"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:57 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:57"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:58 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:58"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:58 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:58"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:58 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:58"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:58 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:58"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:59 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:59"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:59 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:59"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:59 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:59"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:55:59 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:25:59"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:00 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:00"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:01 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:01"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:01 +0000] \"GET /api/jobs?page=1&limit=5 HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:01"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:01 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:01"}
+{"level":"info","message":"::1 - - [02/Aug/2025:11:56:01 +0000] \"GET /api/jobs/stats HTTP/1.1\" 304 - \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 17:26:01"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"job-scraper-api","timestamp":"2025-08-02 17:26:21"}

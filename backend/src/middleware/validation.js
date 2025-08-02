@@ -247,7 +247,9 @@ const validateAlertCreation = [
 
 // Job save/apply validation
 const validateJobAction = [
-  validateObjectId("id"),
+  body("jobId")
+    .isMongoId()
+    .withMessage("Job ID must be a valid MongoDB ObjectId"),
   body("notes")
     .optional()
     .isString()
@@ -342,6 +344,192 @@ const validateSearchQuery = [
   handleValidationErrors,
 ];
 
+// User registration validation (alias for existing function)
+const validateRegistration = validateUserRegistration;
+
+// Alternative user registration validation (flat structure)
+const validateRegistrationFlat = [
+  body("email")
+    .isEmail()
+    .normalizeEmail()
+    .withMessage("Please provide a valid email address"),
+  body("password")
+    .isLength({ min: 6 })
+    .withMessage("Password must be at least 6 characters long")
+    .matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/)
+    .withMessage(
+      "Password must contain at least one lowercase letter, one uppercase letter, and one number"
+    ),
+  body("firstName")
+    .isString()
+    .trim()
+    .isLength({ min: 2, max: 50 })
+    .withMessage("First name must be between 2 and 50 characters"),
+  body("lastName")
+    .isString()
+    .trim()
+    .isLength({ min: 2, max: 50 })
+    .withMessage("Last name must be between 2 and 50 characters"),
+  body("skills")
+    .optional()
+    .isArray()
+    .withMessage("Skills must be an array"),
+  body("experience")
+    .optional()
+    .isIn(["entry", "mid", "senior", "lead", "executive"])
+    .withMessage("Invalid experience level"),
+  body("location.city")
+    .optional()
+    .isString()
+    .trim()
+    .withMessage("City must be a string"),
+  body("location.state")
+    .optional()
+    .isString()
+    .trim()
+    .withMessage("State must be a string"),
+  body("location.country")
+    .optional()
+    .isString()
+    .trim()
+    .withMessage("Country must be a string"),
+  body("remotePreference")
+    .optional()
+    .isBoolean()
+    .withMessage("Remote preference must be a boolean"),
+  body("bio")
+    .optional()
+    .isString()
+    .trim()
+    .isLength({ max: 500 })
+    .withMessage("Bio must not exceed 500 characters"),
+  handleValidationErrors,
+];
+
+// User login validation (alias for existing function)
+const validateLogin = validateUserLogin;
+
+// Profile update validation
+const validateProfileUpdate = [
+  body("profile.firstName")
+    .optional()
+    .isString()
+    .trim()
+    .isLength({ min: 2, max: 50 })
+    .withMessage("First name must be between 2 and 50 characters"),
+  body("profile.lastName")
+    .optional()
+    .isString()
+    .trim()
+    .isLength({ min: 2, max: 50 })
+    .withMessage("Last name must be between 2 and 50 characters"),
+  body("profile.skills")
+    .optional()
+    .isArray()
+    .withMessage("Skills must be an array"),
+  body("profile.experience")
+    .optional()
+    .isIn(["entry", "mid", "senior", "lead", "executive"])
+    .withMessage("Invalid experience level"),
+  body("profile.location.city")
+    .optional()
+    .isString()
+    .trim()
+    .withMessage("City must be a string"),
+  body("profile.location.state")
+    .optional()
+    .isString()
+    .trim()
+    .withMessage("State must be a string"),
+  body("profile.location.country")
+    .optional()
+    .isString()
+    .trim()
+    .withMessage("Country must be a string"),
+  body("profile.remotePreference")
+    .optional()
+    .isBoolean()
+    .withMessage("Remote preference must be a boolean"),
+  body("profile.bio")
+    .optional()
+    .isString()
+    .trim()
+    .isLength({ max: 500 })
+    .withMessage("Bio must not exceed 500 characters"),
+  body("profile.avatar")
+    .optional()
+    .isString()
+    .trim()
+    .isURL()
+    .withMessage("Avatar must be a valid URL"),
+  handleValidationErrors,
+];
+
+// Password change validation
+const validatePasswordChange = [
+  body("currentPassword")
+    .notEmpty()
+    .withMessage("Current password is required"),
+  body("newPassword")
+    .isLength({ min: 6 })
+    .withMessage("Password must be at least 6 characters long")
+    .matches(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/)
+    .withMessage(
+      "Password must contain at least one lowercase letter, one uppercase letter, and one number"
+    ),
+  handleValidationErrors,
+];
+
+// Password validation (for deactivate account)
+const validatePassword = [
+  body("password")
+    .notEmpty()
+    .withMessage("Password is required"),
+  handleValidationErrors,
+];
+
+// Preferences validation
+const validatePreferences = [
+  body("preferences.jobTypes")
+    .optional()
+    .isArray()
+    .withMessage("Job types must be an array"),
+  body("preferences.jobTypes.*")
+    .optional()
+    .isIn(["full-time", "part-time", "contract", "freelance", "internship"])
+    .withMessage("Invalid job type"),
+  body("preferences.locations")
+    .optional()
+    .isArray()
+    .withMessage("Locations must be an array"),
+  body("preferences.skills")
+    .optional()
+    .isArray()
+    .withMessage("Skills must be an array"),
+  body("preferences.remoteOnly")
+    .optional()
+    .isBoolean()
+    .withMessage("Remote only must be a boolean"),
+  body("preferences.experienceLevel")
+    .optional()
+    .isIn(["entry", "mid", "senior", "lead", "executive"])
+    .withMessage("Invalid experience level"),
+  body("preferences.salaryRange.min")
+    .optional()
+    .isInt({ min: 0 })
+    .withMessage("Minimum salary must be a positive number"),
+  body("preferences.salaryRange.max")
+    .optional()
+    .isInt({ min: 0 })
+    .withMessage("Maximum salary must be a positive number"),
+  body("preferences.salaryRange.currency")
+    .optional()
+    .isString()
+    .isLength({ min: 3, max: 3 })
+    .withMessage("Currency must be a 3-letter code"),
+  handleValidationErrors,
+];
+
 module.exports = {
   handleValidationErrors,
   validateObjectId,
@@ -356,4 +544,11 @@ module.exports = {
   validateApplicationStatus,
   validatePagination,
   validateSearchQuery,
+  validateRegistration,
+  validateRegistrationFlat,
+  validateLogin,
+  validateProfileUpdate,
+  validatePasswordChange,
+  validatePassword,
+  validatePreferences,
 };

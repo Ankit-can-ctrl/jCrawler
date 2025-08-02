@@ -1,0 +1,40 @@
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 13:21:44"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:21:44"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 13:21:44"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:21:44"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 13:21:44"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 13:21:44"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"job-scraper-api","timestamp":"2025-08-02 13:22:07"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 13:22:37"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:22:37"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 13:22:37"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:22:37"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 13:22:37"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 13:22:37"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:52:42 +0000] \"GET /health HTTP/1.1\" 200 122 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 13:22:42"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:52:42 +0000] \"GET /favicon.ico HTTP/1.1\" 404 79 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 13:22:42"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:53:45 +0000] \"GET /health HTTP/1.1\" 200 122 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.4768\"","service":"job-scraper-api","timestamp":"2025-08-02 13:23:45"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:54:27 +0000] \"GET /health HTTP/1.1\" 200 122 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 13:24:27"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:54:40 +0000] \"GET /api/jobs HTTP/1.1\" 200 81 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 13:24:40"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 13:26:12"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:26:12"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 13:26:12"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:26:12"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 13:26:12"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 13:26:12"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:56:16 +0000] \"GET /health HTTP/1.1\" 200 122 \"-\" \"Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.4768\"","service":"job-scraper-api","timestamp":"2025-08-02 13:26:16"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-01.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 13:26:19"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:26:19"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 13:26:19"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:26:19"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 13:26:19"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 13:26:19"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:56:29 +0000] \"GET /health HTTP/1.1\" 200 122 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 13:26:29"}
+{"level":"info","message":"::1 - - [02/Aug/2025:07:56:32 +0000] \"GET /api/jobs HTTP/1.1\" 200 98 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"","service":"job-scraper-api","timestamp":"2025-08-02 13:26:32"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-02.la49z.mongodb.net","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
+{"level":"info","message":"MongoDB connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
+{"level":"info","message":"Redis client connected","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
+{"level":"info","message":"Redis connected successfully","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
+{"level":"info","message":"Server running on port 5000 in development mode","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
+{"level":"info","message":"Health check available at http://localhost:5000/health","service":"job-scraper-api","timestamp":"2025-08-02 13:26:44"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","service":"job-scraper-api","timestamp":"2025-08-02 13:31:47"}
